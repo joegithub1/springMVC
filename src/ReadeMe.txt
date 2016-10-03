@@ -1,0 +1,5 @@
+未完成:
+1.hibernate-validator
+2.基于浏览器国际化
+3.restful风格
+
