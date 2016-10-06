@@ -24,10 +24,18 @@
 </form>
 <br/>
 <form action="${ctx }/rest/user/1" method="post">
-<input type="text" value="1"/>
 	<input type="submit" value="post submit"/>
 </form>
-
+<br/>
+<form action="${ctx }/rest/user/1" method="post">
+	<input type="hidden" name="_method" value="PUT">
+	<input type="submit" value="PUT submit">
+</form>
+<br/>
+<form action="${ctx }/rest/user/1" method="post">
+	<input type="hidden" name="_method" value="DELETE">
+	<input type="submit" value="DELETE submit">
+</form>
 <h2>十六、表单的验证（使用Hibernate-validate）及国际化</h2>
 <h4>未完成</h4>
 <!--  
